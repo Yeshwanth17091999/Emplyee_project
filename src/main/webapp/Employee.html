@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Form</title>
+</head>
+<body>
+<form action="save" method="get">
+        <!-- placeholder -->
+        <table>
+            <tr>
+                <td><label for="Emp_fname">FirstName</label></td>
+                <td><input type="text" name="Emp_fname" placeholder="Enter first name"></td>
+            </tr>
+            <tr>
+                <td><label for="Emp_lname">LastName</label></td>
+                <td><input type="text" name="Emp_lname" ></td>
+            </tr>
+
+            <tr>
+                <td><label for="DOB">dateofbirth</label></td>
+                <td><input type="date" name="DOB" id="dob" ></td>
+            </tr>
+            <tr>
+                <td><label for="psw">password</label></td>
+                <td><input type="password" name="psw" id="psw"></td>
+            </tr>
+            <tr>
+                <td><label for="address">address</label></td>
+                <td><textarea name="address" cols="30" rows="10"></textarea></td>
+
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <!-- dropdown -->
+            <tr>
+                <td><label for="qual">qualification</label></td>
+                <td><select name="qual" id="qual">
+                        <option value="emp">empty</option>
+                        <option value="mech">Mechanical</option>
+                        <option value="civil">Civil</option>
+                        <option value="ece">ECE</option>
+
+                    </select></td>
+
+
+            </tr>
+
+            <tr>
+                <td><label for="gen">Gender</label></td>
+                <td><input type="radio" name="gen" value = "Male">Male</td>
+                <td><input type="radio" name="gen" value = "Female">female</td>
+            </tr>
+
+            <tr>
+                  
+                <td><input type="submit"></td> 
+                <td><input type="reset"> </td>
+               
+                
+            </tr>
+
+
+
+        </table>
+
+    </form>
+</body>
+</html>
